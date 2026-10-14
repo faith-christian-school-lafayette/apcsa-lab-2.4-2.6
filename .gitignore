@@ -1,0 +1,12 @@
+# Build output
+target/
+
+# Grading material — never ships to students
+src/test/
+
+# Editor / OS noise
+.idea/
+*.iml
+.vscode/*
+!.vscode/settings.json
+.DS_Store

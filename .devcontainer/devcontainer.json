@@ -1,0 +1,10 @@
+// Prebuilt image so codespaces start fast. The environment is defined in
+// faith-christian-school-lafayette/apcsa-devcontainer -- pushing to main there rebuilds
+// and republishes the image, and every lab picks the change up on the next codespace.
+//
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/java
+{
+	"name": "Java",
+	"image": "ghcr.io/faith-christian-school-lafayette/apcsa-devcontainer:latest"
+}
